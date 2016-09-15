@@ -14,6 +14,22 @@ a
 	src: url(https://fonts.googleapis.com/css?family=Baloo+Paaji);
 	src:url(https://fonts.googleapis.com/css?family=Prompt:100,200,300,400,500,700);
 }
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+a 
+{
+	text-decoration: none;
+}
+@font-face{
+	font-family: 'Baloo Paaji', cursive;
+	font-family: Prompt;
+	src: url(https://fonts.googleapis.com/css?family=Baloo+Paaji);
+	src:url(https://fonts.googleapis.com/css?family=Prompt:100,200,300,400,500,700);
+}
 
 header{
 	max-width: 100%;
@@ -34,6 +50,7 @@ header{
 	font-size: 35px;
 	display: inline-block;
 	margin-left: 3px;
+	font-family: 'Baloo Paaji', cursive;
 	
 }
 .rosa{
@@ -41,16 +58,18 @@ header{
 	color: #F65D60;
 	font-size: 35px;
 	display: inline-block;
+	font-family: 'Baloo Paaji', cursive;
 
 }
 .menu{
 	font-family: Prompt;
-	
+	color:#BAD7D0;
 	text-align: center;
 	display: inline-block;
 	float: right;
-	margin-top: -40px;
+	margin-top: -5%;
 	padding: 10px;
+	
 }
 
 section {
@@ -63,15 +82,41 @@ section {
 	max-width: 100%;
 	height: 500px;
 	background-repeat: no-repeat;
-	margin-left: 12%;
+	margin-left: 10%;
 }
 .cuadro-central{
-	height: 300px;
-	width: 60%;
+	height: 200px;
+	width: 50%;
 	border:solid 1px #196C86;
 	background-color: #196C86;
+	opacity: 0.9;
 	padding: 10%;
-	margin:0 auto;
+	float: none;
+	position: relative;
+	margin-top: 100px;
+	margin-left:150px;
+}
+.suave{
+	font-family: 'Baloo Paaji', cursive;
+	font-size: 45px;
+	color:#F65D60;
+	text-align: center;
+	margin-top: -15%;
+	
+}
+.frase-central{
+	font-family: Prompt;
+	text-align: center;
+	color:#BAD7D0;
+}
+.contenedor{
+	width: 70%;
+	height: 400px;
+	background-color: #196C86;
+	margin-left: 0 auto;
+	margin-top: 20%;
+	float: none;
+
 }
 /*seccion jo*/
 #j{
@@ -126,13 +171,15 @@ section {
 	width: 71%;
 	height: 900px;
 	margin-left: 12%;
+	clear: both;
 
 }
 
 .izquierda {
 	width: 50%;
 	background-color:#EBF7FB;
-	margin:2%;
+	
+	margin-top: -40%
 	
 }
 
@@ -153,7 +200,7 @@ section {
 	
 }
 
-.buscar, form {
+form {
 	border-radius: 5%;
 }
 
@@ -167,8 +214,10 @@ input {
 .derecha {
 	width: 40%;
 	background-color:#EBF7FB;
-	margin:2%;
-	display: block;	 
+	margin-top:0%;
+	display: block;	
+	float:right;
+
 }
 
 i {
@@ -184,7 +233,9 @@ i {
 	height: 200px;
 	
 }
-
+.marron{
+	display: block;
+}
 .marron .pblanco {
 	background-color:#EBF7FB;
 	display: block;
@@ -234,3 +285,355 @@ iframe{
 		width: 100%;
 	}
 }
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @JocelynJo
+ Watch 0
+  Star 0
+  Fork 0 ReginaGalvezCh/bunny-love
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs
+Branch: master Find file Copy pathbunny-love/css/main.css
+e889167  4 hours ago
+@ReginaGalvezCh ReginaGalvezCh si
+2 contributors @ReginaGalvezCh @JocelynJo
+RawBlameHistory     337 lines (296 sloc)  4.77 KB
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+a 
+{
+	text-decoration: none;
+}
+@font-face{
+	font-family: 'Baloo Paaji', cursive;
+	font-family: Prompt;
+	src: url(https://fonts.googleapis.com/css?family=Baloo+Paaji);
+	src:url(https://fonts.googleapis.com/css?family=Prompt:100,200,300,400,500,700);
+}
+
+header{
+	max-width: 100%;
+	height: 100px;
+	background-color: #196C86;
+	
+
+}
+
+.logo{
+	display: block;
+	font-family: 'Baloo Paaji', cursive;
+}
+
+.blanco{
+	font-family: Prompt;
+	color: #FFFFFF;
+	font-size: 35px;
+	display: inline-block;
+	margin-left: 3px;
+	font-family: 'Baloo Paaji', cursive;
+	
+}
+.rosa{
+	font-family: Prompt;
+	color: #F65D60;
+	font-size: 35px;
+	display: inline-block;
+	font-family: 'Baloo Paaji', cursive;
+
+}
+.menu{
+	font-family: Prompt;
+	color:#BAD7D0;
+	text-align: center;
+	display: inline-block;
+	float: right;
+	margin-top: -5%;
+	padding: 10px;
+	
+}
+
+section {
+	width: 100%;
+	height: 25%;
+}
+
+.conejo1{
+	background-image: url(../img/conejo-1.jpg);
+	max-width: 100%;
+	height: 500px;
+	background-repeat: no-repeat;
+	margin-left: 10%;
+}
+.cuadro-central{
+	height: 200px;
+	width: 50%;
+	border:solid 1px #196C86;
+	background-color: #196C86;
+	opacity: 0.9;
+	padding: 10%;
+	float: none;
+	position: relative;
+	margin-top: 100px;
+	margin-left:150px;
+}
+.suave{
+	font-family: 'Baloo Paaji', cursive;
+	font-size: 45px;
+	color:#F65D60;
+	text-align: center;
+	margin-top: -15%;
+	
+}
+.frase-central{
+	font-family: Prompt;
+	text-align: center;
+	color:#BAD7D0;
+}
+.contenedor{
+	width: 70%;
+	height: 400px;
+	background-color: #196C86;
+	margin-left: 0 auto;
+	margin-top: 20%;
+	float: none;
+}
+/*seccion jo*/
+#j{
+	background:#ffffff;
+}
+.jcuentos{/*row jo*/
+	padding-top: 2%;
+	margin-left: 17%;
+}
+
+.jcone{
+	display: inline-block;
+	margin-right: 0;
+}
+
+.jcone img{
+	max-width: 100%;
+	height: 130px;
+	float:left;
+	margin:auto;
+	display: block;
+}
+.jconejo h5{
+	color:#ff7673;
+	font-family: Prompt;
+}
+.jconejo p{
+	font-family: Prompt;
+	line-height: 160%;
+	font-size: 13px;
+}
+.jconejo{
+	text-align: center;
+	color: #FFF;
+	clear: both;
+	/*position:absolute; /*El div será ubicado con relación a la pantalla*/
+	left:0px; /*A la derecha deje un espacio de 0px*/
+	right:0px; /*A la izquierda deje un espacio de 0px*/
+	bottom:0px; /*Abajo deje un espacio de 0px*/
+	height:100px; /*alto del div*/
+	z-index:0;
+	
+	background-color: #037f99;
+	max-width: 87.3%;
+	height: 250px;
+	padding: 5% 3% 5% 3%;
+}
+/*seccion jo*/
+#j{
+	background:#ffffff;
+}
+.jcuentos{/*row jo*/
+	padding-top: 2%;
+	margin-left: 17%;
+}
+
+.jcone{
+	display: inline-block;
+	margin-right: 0;
+}
+
+.jcone img{
+	max-width: 100%;
+	height: 130px;
+	float:left;
+	margin:auto;
+	display: block;
+}
+.jconejo h5{
+	color:#ff7673;
+	font-family: Prompt;
+}
+.jconejo p{
+	font-family: Prompt;
+	line-height: 160%;
+	font-size: 13px;
+}
+.jconejo{
+	text-align: center;
+	color: #FFF;
+	clear: both;
+	/*position:absolute; /*El div será ubicado con relación a la pantalla*/
+	left:0px; /*A la derecha deje un espacio de 0px*/
+	right:0px; /*A la izquierda deje un espacio de 0px*/
+	bottom:0px; /*Abajo deje un espacio de 0px*/
+	height:100px; /*alto del div*/
+	z-index:0;
+	background-color: #037f99;
+	max-width: 87.3%;
+	height: 250px;
+	padding: 5% 3% 5% 3%;
+}
+
+/*pau*/
+.conejo3 {
+	background-color: #196C86;
+	width: 71%;
+	height: 900px;
+	margin-left: 12%;
+	margin-top: 35%;
+
+}
+
+.izquierda {
+	width: 50%;
+	background-color:#EBF7FB;
+	margin:2%;
+	margin-top: 10%;
+}
+
+.conejito1 {
+	width: 100%;
+	height: 300px;
+}
+
+.textop {
+	width: 100%;
+	margin-top:-10px;
+	padding:10px 15px;
+	background-color: white;
+}
+
+.video {
+	width: 100%;
+	
+}
+
+.buscar, form {
+	border-radius: 5%;
+}
+
+input {
+	width: 85%;
+	padding: 10px;
+	margin:30px;
+	border-radius: 7%;
+}
+
+.derecha {
+	width: 40%;
+	background-color:#EBF7FB;
+	margin:2%;
+	display: inline-block;
+	margin-top: -40%;
+	float: right;
+	 
+}
+
+i {
+	color: blue;
+	padding:10px;
+	border-radius:50%;
+	margin-right: 20px;
+	background-color: white;
+	display:inline-block;
+}
+
+.conejito2, .conejito3 {
+	width: 100%;
+	height: 200px;
+	
+}
+
+.marron .blanco {
+	background-color:#EBF7FB;
+	display: block;
+	margin-bottom:-50% ;
+
+}
+
+h3 {
+	margin-top: 2px ;
+	margin-bottom:2px;
+	color: #F65D60;
+	text-align: center;
+	font-family: 'Prompt', sans-serif; 
+}
+
+.año {
+	padding-left:5px;
+	margin:2px
+
+}
+.textop {
+	font-size: 13px;
+	padding: 3px 10px;
+	margin-top:2px;
+	font-family: 'Prompt', sans-serif;
+	background-color:#EBF7FB;
+}
+
+@media (max-width: 500px) {
+	.conejo3 {
+		width: 100%;
+		height: 100%;
+	}
+	.col-7 {
+		width: 100%;
+	}
+	.col-5 {
+		width: 100%;
+	}
+}
+/*pau*/
+
+
+	
+	footer
+	{
+	height: 30%;
+	width: 100%;
+}
+.contenedor-rg{
+	height: 15%;
+	width: 100%;
+	background-color: #E7F5FB;
+}
+.conejo-rg{
+	height:15% ;
+	width:10% ;
+	/* para col-4
+	height: 100%;
+	width: 30%;*/
+	
+}
+.pie-rg{
+	height: 15%;
+	width: 100%;
+	border-top: #F65D60 solid 3px;
+	background-color: #196C86;
+	text-align: center;
+	font-family:Prompt;
+	color:#BAD7D0;
+

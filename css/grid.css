@@ -265,11 +265,17 @@ nav ul li {
     .text-center-sm {
     	text-align: center;
     }
-    @media only screen and (max-width:535px) { [class*="col-"] {
+    @media  (max-width:535px) { [class*="col-"] {
         width: 100%;
 
     }
-    /*.jcone img{
+    /*.col-2{
+    	display: block;
+    }
+   	.jcone{
+   		width: 100%;
+   	}
+    .jcone img{
     	max-width: 100%;
     	height: 170%;
     	clear:left;
@@ -282,5 +288,4 @@ nav ul li {
     	padding: 0;
     }*/
 
-}
 }

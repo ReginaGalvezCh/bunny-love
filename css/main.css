@@ -14,7 +14,13 @@ a
 	src: url(https://fonts.googleapis.com/css?family=Baloo+Paaji);
 	src:url(https://fonts.googleapis.com/css?family=Prompt:100,200,300,400,500,700);
 }
-
+.container{
+	margin-right:10%;
+	margin-left: 10%;
+}
+body{
+	background-color: #E7F5F9;
+}
 header{
 	max-width: 100%;
 	height: 100px;
@@ -58,11 +64,12 @@ header{
 
 section {
 	width: 100%;
-	height: 25%;
+	
 }
 
 .conejo1{
 	background-image: url(../img/conejo-1.jpg);
+	background-size: cover;
 	max-width: 100%;
 	height: 500px;
 	background-repeat: no-repeat;
@@ -78,7 +85,8 @@ section {
 	float: none;
 	position: relative;
 	margin-top: 100px;
-	margin-left:150px;
+	margin-left:26%;
+	margin-right:26%;
 }
 .suave{
 	font-family: 'Baloo Paaji', cursive;
@@ -102,7 +110,7 @@ section {
 	float: none;
 }
 /*seccion jo*/
-#j{
+.j{
 	background:#ffffff;
 }
 .jcuentos{/*row jo*/
@@ -112,12 +120,17 @@ section {
 
 .jcone{
 	display: inline-block;
-	margin-right: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+
+}
+
+.jfila {
+	padding: 20px;
 }
 
 .jcone img{
 	max-width: 100%;
-	height: 130px;
 	float:left;
 	margin:auto;
 	display: block;
@@ -143,71 +156,29 @@ section {
 	z-index:0;
 	
 	background-color: #037f99;
-	max-width: 87.3%;
+
 	height: 250px;
 	padding: 5% 3% 5% 3%;
 }
-/*seccion jo*/
-#j{
-	background:#ffffff;
-}
-.jcuentos{/*row jo*/
-	padding-top: 2%;
-	margin-left: 17%;
-}
 
-.jcone{
-	display: inline-block;
-	margin-right: 0;
-}
-
-.jcone img{
-	max-width: 100%;
-	height: 130px;
-	float:left;
-	margin:auto;
-	display: block;
-}
-.jconejo h5{
-	color:#ff7673;
-	font-family: Prompt;
-}
-.jconejo p{
-	font-family: Prompt;
-	line-height: 160%;
-	font-size: 13px;
-}
-.jconejo{
-	text-align: center;
-	color: #FFF;
-	clear: both;
-	/*position:absolute; /*El div será ubicado con relación a la pantalla*/
-	left:0px; /*A la derecha deje un espacio de 0px*/
-	right:0px; /*A la izquierda deje un espacio de 0px*/
-	bottom:0px; /*Abajo deje un espacio de 0px*/
-	height:100px; /*alto del div*/
-	z-index:0;
-	background-color: #037f99;
-	max-width: 87.3%;
-	height: 250px;
-	padding: 5% 3% 5% 3%;
-}
 
 /*pau*/
+.espacio{
+	padding: 10px;
+	
+}
 .conejo3 {
 	background-color: #196C86;
-	width: 71%;
-	height: 900px;
-	margin-left: 12%;
-	margin-top: 35%;
+	
+	
 
 }
 
 .izquierda {
-	width: 50%;
+	
 	background-color:#EBF7FB;
-	margin:2%;
-	margin-top: 10%;
+	
+	
 }
 
 .conejito1 {
@@ -239,12 +210,8 @@ input {
 }
 
 .derecha {
-	width: 40%;
+	
 	background-color:#EBF7FB;
-	margin:2%;
-	display: inline-block;
-	margin-top: -40%;
-	float: right;
 	 
 }
 
@@ -254,28 +221,33 @@ i {
 	border-radius:50%;
 	margin-right: 20px;
 	background-color: white;
-	display:inline-block;
+	display:block;
 }
-
 .conejito2, .conejito3 {
 	width: 100%;
 	height: 200px;
 	
 }
 
-.marron .blanco {
+.marron .pblanco {
 	background-color:#EBF7FB;
 	display: block;
-	margin-bottom:-50% ;
-
 }
-
+.pblanco h6{
+	color: #F65D60;
+}
+.pblanco .textop p{
+	color:black;
+}
 h3 {
 	margin-top: 2px ;
 	margin-bottom:2px;
 	color: #F65D60;
 	text-align: center;
 	font-family: 'Prompt', sans-serif; 
+}
+iframe{
+	max-width: 100%;
 }
 
 .año {
@@ -286,23 +258,14 @@ h3 {
 .textop {
 	font-size: 13px;
 	padding: 3px 10px;
-	margin-top:2px;
+	margin-top:2%;
 	font-family: 'Prompt', sans-serif;
 	background-color:#EBF7FB;
 }
-
-@media (max-width: 500px) {
-	.conejo3 {
-		width: 100%;
-		height: 100%;
-	}
-	.col-7 {
-		width: 100%;
-	}
-	.col-5 {
-		width: 100%;
-	}
+.blanco{
+	height: 10px;
 }
+
 /*pau*/
 
 
@@ -333,4 +296,8 @@ h3 {
 	text-align: center;
 	font-family:Prompt;
 	color:#BAD7D0;
+}
+@media only screen and (max-width:535px) { [class*="col-"] {
+        width: 100%;
+    }
 }
